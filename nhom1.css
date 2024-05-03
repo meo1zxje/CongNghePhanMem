@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: #39383d;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    align-items: center;
+    border-bottom: 1px solid rgb(77, 72, 72);
+    
+}
+.logo a{
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(161, 159, 159);
+    padding: 5px;
+    border-radius: 10px;
+}
+.login a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(161, 159, 159);
+    padding: 10px;
+    border-radius: 10px;
+}
+.cotainer{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #1e1d20;
+}
+.search input{
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #1e1d20;
+    border: 1px solid white;
+    border-right: none;
+}
+.search button{
+    
+    color: white;
+    background-color: #1e1d20;
+    font-size: 26.5px;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid white;
+    border-left: none;
+}
+.search button i{
+    vertical-align: middle;
+}
+.search{
+    align-items: center;
+    display: flex;
+}
+/*nav menu*/
+.nav .menu li{
+    list-style: none;
+    padding: 20px 50px;
+}
+.nav .menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav .menu ul{
+    display: flex;
+    justify-content: center;
+}
+.nav .menu{
+    border: 1 solid white;
+}
+.nav .menu ul li a i{
+    vertical-align: middle;
+}
+.nav{
+    border-bottom: 1px solid rgb(77, 72, 72);
+}
+.menu ul li a:hover{
+    color: chocolate;
+}
+/* Main */
+.main{
+    border-bottom: 1px solid rgb(77, 72, 72);
+}
+
+ /* Footer */
+footer .title{
+     color: white;
+     font-size: 20px;
+     font-weight: bolder;
+}
+footer ul li{
+    list-style:none;
+    padding: 4px;
+    text-align: left;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(185, 182, 182);
+    font-size: 17px;
+    
+}
+.contact ul li a i{
+    vertical-align: auto;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 300px;
+}
+.dkhoan ul li a{
+    padding-left: 30px;
+}
+footer ul{
+    margin-top: 10px;
+}
+footer ul li a:hover{
+    color: chocolate;
+}
